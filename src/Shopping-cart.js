@@ -64,7 +64,7 @@ export default function Shopping_cart(){
                                     </td>
                                     <td className="delete-item">
                                         <div className="delete" onClick={delete_item_1}>
-                                            <a href="#"><i className="fas fa-times"/></a>
+                                            <a><i className="fas fa-times"/></a>
                                         </div>
                                     </td>
                                 </tr>
@@ -92,7 +92,7 @@ export default function Shopping_cart(){
                                     </td>
                                     <td className="delete-item">
                                         <div className="delete" onClick={delete_item_2}>
-                                            <a href="#"><i className="fas fa-times"/></a>
+                                            <a ><i className="fas fa-times"/></a>
                                         </div>
                                     </td>
                                 </tr>
@@ -120,7 +120,7 @@ export default function Shopping_cart(){
                                     </td>
                                     <td className="delete-item">
                                         <div className="delete" onClick={delete_item_3}>
-                                            <a href="#"><i className="fas fa-times"/></a>
+                                            <a><i className="fas fa-times"/></a>
                                         </div>
                                     </td>
                                 </tr>
