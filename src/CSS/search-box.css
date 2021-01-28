@@ -1,0 +1,35 @@
+body{
+    position: relative;
+    z-index: 3;
+}
+.search-box{
+    position: absolute;
+    background-image: -webkit-linear-gradient(left, #3a3a3ac9, #45565fc4);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    text-align: center;
+}
+.search-box .fa-times{
+    position: fixed;
+    margin-top: 150px;
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    z-index: 6;
+    border-radius:50%;
+    padding: 11px;
+    background-color: #222222;
+}
+.search-box input{
+    position: fixed;
+    display: inline-block;
+    margin-top: 320px;
+    font-size: 25px;
+    width: 750px;
+    height: 70px;
+    margin-left: -330px;
+}

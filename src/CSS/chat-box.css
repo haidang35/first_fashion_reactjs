@@ -1,0 +1,100 @@
+.chat-box{
+    z-index: 5;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.chat-box .fa-facebook-messenger{
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(left, #aa35ec, #e91be6);
+    transition: 600ms;
+    cursor: pointer;
+    float: right;
+}
+.chat-box .fa-times{
+    text-align: center;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    background-image: -webkit-linear-gradient(left, #aa35ec, #e91be6);
+    transition: 600ms;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+.fa-facebook-messenger:hover{
+    padding: 16px;
+    transition: 600ms;
+    font-size: 35px;
+}
+.chat-box .fa-times:hover{
+    font-size: 38px;
+    width: 65px;
+    height: 65px;
+    padding: 16px;
+    transition: 600ms;
+    transform: rotate(180deg);
+}
+.chat-box-small{
+    width: 360px;
+    height: 485px;
+    background-color: white;
+    box-shadow: 0 0 10px #bfbebe;
+    border-radius: 16px;
+    overflow: hidden;
+    display: none;
+    margin-bottom: 12px;
+}
+.chat-box-small h4{
+    color: white;
+    background-image: -webkit-linear-gradient(left, #ab12ea, #f110ee );
+    display: block;
+    padding: 15px;
+    padding-left: 22px ;
+    margin-top: 0;
+}
+.chat-box-small p{
+    padding: 15px 18px 5px 18px;
+    color: #434343;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.input-chat-box{
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #d7d5d5;
+}
+.input-chat-box input{
+    margin-bottom: 15px;
+    border-radius: 35px;
+    font-size: 16px;
+    height: 50px;
+    padding: 19px;
+}
+.input-chat-box .input-message{
+    height: 65px;
+}
+.input-chat-box .start-chat{
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    background-image: -webkit-linear-gradient(left, #ab12ea, #f110ee);
+}

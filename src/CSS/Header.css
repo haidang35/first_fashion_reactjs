@@ -1,0 +1,190 @@
+.header-box{
+    width: auto;
+    height: auto;
+}
+.top-header-bar{
+    width: auto;
+    height: 50px;
+    background-color: black;
+    color: #e2e2e2;
+    padding-top: 14px;
+}
+.ship-describe{
+    color: #e2e2e2;
+    font-size: 16px;
+}
+.sign-in-box{
+
+    float: right;
+}
+.sign-in-box span{
+    color: #e2e2e2;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin-right: 20px;
+    float: left;
+}
+.sign-in-box i{
+    font-size: 12px;
+    padding-top: 6px;
+}
+.under-header-bar{
+    width: auto;
+    height: 70px;
+    background-color: white;
+    padding-top: 10px;
+}
+.main-logo img{
+    width: 300px;
+    float: left;
+    margin-right: 150px;
+    margin-left: -7px;
+}
+.nav-bar{
+
+}
+.list-menu li {
+    color: black;
+    font-size: 19px;
+    list-style: none;
+    float: left;
+    display: block;
+    margin-right: 45px;
+    position: relative;
+}
+.home-menu{
+    color: black;
+    font-size: 19px;
+}
+.shop-menu{
+    color: black;
+    font-size: 19px;
+}
+.Blog-menu{
+    color: black;
+    font-size: 19px;
+}
+.Contact-menu{
+    color: black;
+    font-size: 19px;
+}
+.about-us-menu{
+    color: black;
+    font-size: 19px;
+}
+.border-bottom-nav-home{
+    margin-top: 5px;
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: 10px;
+    margin-left: 16px;
+    opacity: 0;
+}
+.list-menu li:hover .border-bottom-nav-home{
+    opacity: 1;
+    margin-left: 0;
+    width: 55px;
+    transition: 700ms;
+}
+.border-bottom-nav-shop{
+    margin-top: 5px;
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: 10px;
+    margin-left: 16px;
+    opacity: 0;
+}
+.list-menu li:hover .border-bottom-nav-shop{
+    opacity: 1;
+    margin-left: 0;
+    width: 45px;
+    transition: 700ms;
+}
+.border-bottom-nav-about{
+    margin-top: 5px;
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: 10px;
+    margin-left: 30px;
+    opacity: 0;
+}
+.list-menu li:hover .border-bottom-nav-about{
+    opacity: 1;
+    margin-left: 0;
+    width: 79px;
+    transition: 700ms;
+}
+.border-bottom-nav-blog{
+    margin-top: 5px;
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: 10px;
+    margin-left: 16px;
+    opacity: 0;
+}
+.list-menu li:hover .border-bottom-nav-blog{
+    opacity: 1;
+    margin-left: 0;
+    width: 42px;
+    transition: 700ms;
+}
+.border-bottom-nav-contact{
+    margin-top: 5px;
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: 10px;
+    margin-left: 20px;
+    opacity: 0;
+}
+.list-menu li:hover .border-bottom-nav-contact{
+    opacity: 1;
+    margin-left: 0;
+    width: 73px;
+    transition: 700ms;
+}
+.icon-option{
+    float: right;
+    margin-top: 5px;
+}
+.icon-option i{
+    font-size: 20px;
+    color: #0f0f0f;
+    margin-right: 20px;
+}
+.icon-option span{
+    color: #0f0f0f;
+    font-size: 18px;
+    font-weight: 500;
+}
+.icon-option a{
+    text-decoration: none;
+}
+section{
+    position: relative;
+    z-index: 1;
+}
+.sub-menu-page{
+    position: absolute;
+    width: 165px;
+    height: auto;
+    background-color: #0f0f0f;
+    z-index: 2;
+    display: none;
+    padding-bottom: 10px;
+}
+.sub-menu-page li{
+    list-style: none;
+    padding: 7px 10px 7px 15px;
+}
+.sub-menu-page a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.list-page{
+    cursor: pointer;
+}
+.list-page:hover .sub-menu-page{
+    display: block;
+}
