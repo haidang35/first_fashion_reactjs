@@ -295,7 +295,7 @@ import {Link} from "react-router-dom";
 
                                      <a href="#"><i className="fas fa-search" /></a>
                                  </div>
-                                 <h2 className="name-product">#Product_1</h2>
+                                 <h2 className="name-product">Pique Biker Jacket</h2>
                                  <div className="star-rate">
                                      <div className="star-rate-off" />
                                      <div className="star-rate-on" style={{width: '75%'}} />
@@ -329,12 +329,12 @@ import {Link} from "react-router-dom";
 
                                      <a href="#"><i className="fas fa-search" /></a>
                                  </div>
-                                 <h2 className="name-product">#Product_2</h2>
+                                 <h2 className="name-product">New Generation Jacket</h2>
                                  <div className="star-rate">
                                      <div className="star-rate-off" />
                                      <div className="star-rate-on" style={{width: '75%'}} />
                                  </div>
-                                 <p className="cost-product">$67.24</p>
+                                 <p className="cost-product">$99.99</p>
                                  <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                  <div className="choose-color-product">
                                      <label>Choose Color</label><br />
@@ -363,12 +363,12 @@ import {Link} from "react-router-dom";
 
                                      <a href="#"><i className="fas fa-search" /></a>
                                  </div>
-                                 <h2 className="name-product">#Product_3</h2>
+                                 <h2 className="name-product">Black Summer T-Shirt</h2>
                                  <div className="star-rate">
                                      <div className="star-rate-off" />
                                      <div className="star-rate-on" style={{width: '75%'}} />
                                  </div>
-                                 <p className="cost-product">$67.24</p>
+                                 <p className="cost-product">$30.35</p>
                                  <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                  <div className="choose-color-product">
                                      <label>Choose Color</label><br />
@@ -397,12 +397,12 @@ import {Link} from "react-router-dom";
 
                                      <a href="#"><i className="fas fa-search" /></a>
                                  </div>
-                                 <h2 className="name-product">#Product_4</h2>
+                                 <h2 className="name-product">Floral Motif Black T-Shirt</h2>
                                  <div className="star-rate">
                                      <div className="star-rate-off" />
                                      <div className="star-rate-on" style={{width: '75%'}} />
                                  </div>
-                                 <p className="cost-product">$67.24</p>
+                                 <p className="cost-product">$23.00</p>
                                  <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                  <div className="choose-color-product">
                                      <label>Choose Color</label><br />

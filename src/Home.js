@@ -150,12 +150,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_1</h2>
+                                        <h2 className="name-product">Floral Motif Black T-Shirt</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$23.00</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -183,7 +183,7 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_1</h2>
+                                        <h2 className="name-product">Pique Biker Jacket</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
@@ -216,12 +216,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_1</h2>
+                                        <h2 className="name-product">Classic Sneaker</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$45.85</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -249,12 +249,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_1</h2>
+                                        <h2 className="name-product">Long-sleeved Jacket</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$65.00</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -282,12 +282,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_1</h2>
+                                        <h2 className="name-product">Cow Leather Backpack</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$75.55</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -315,12 +315,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_1</h2>
+                                        <h2 className="name-product">Black Summer T-shirt</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$30.35</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -348,12 +348,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_1</h2>
+                                        <h2 className="name-product">Tri Of Vietnamese Perfumes</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$120.50</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -381,12 +381,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_1</h2>
+                                        <h2 className="name-product">New Generation Jacket</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$99.99</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -402,7 +402,7 @@ export default function Home(){
                                 <div className="col-md-3">
                                     <div className="product-item-shop">
                                         <Link to="/Shop-details" ><img src="Image/Shop/product-4.jpg" /></Link>
-                                        <span className="status-prod-shop">New</span>
+                                        <span className="status-prod-shop" >New</span>
                                         <div className="icon-add">
                                             <a href="#"><i className="far fa-heart" /></a>
                                             <Link to="Compare-product">
@@ -418,12 +418,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_2</h2>
+                                        <h2 className="name-product">Grey Scarf SS</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$49.99</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -436,7 +436,7 @@ export default function Home(){
                                 <div className="col-md-3">
                                     <div className="product-item-shop">
                                         <Link to="/Shop-details" ><img src="Image/Shop/product-4.jpg" /></Link>
-                                        <span className="status-prod-shop">New</span>
+                                        <span className="status-prod-shop" >New</span>
                                         <div className="icon-add">
                                             <a href="#"><i className="far fa-heart" /></a>
                                             <Link to="Compare-product">
@@ -452,12 +452,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_2</h2>
+                                        <h2 className="name-product">Grey Scarf SS</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$49.99</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -470,7 +470,7 @@ export default function Home(){
                                 <div className="col-md-3">
                                     <div className="product-item-shop">
                                         <Link to="/Shop-details" ><img src="Image/Shop/product-4.jpg" /></Link>
-                                        <span className="status-prod-shop">New</span>
+                                        <span className="status-prod-shop" >New</span>
                                         <div className="icon-add">
                                             <a href="#"><i className="far fa-heart" /></a>
                                             <Link to="Compare-product">
@@ -486,12 +486,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_2</h2>
+                                        <h2 className="name-product">Grey Scarf SS</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$49.99</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -504,7 +504,7 @@ export default function Home(){
                                 <div className="col-md-3">
                                     <div className="product-item-shop">
                                         <Link to="/Shop-details" ><img src="Image/Shop/product-4.jpg" /></Link>
-                                        <span className="status-prod-shop">New</span>
+                                        <span className="status-prod-shop" >New</span>
                                         <div className="icon-add">
                                             <a href="#"><i className="far fa-heart" /></a>
                                             <Link to="Compare-product">
@@ -520,12 +520,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_2</h2>
+                                        <h2 className="name-product">Grey Scarf SS</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$49.99</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -557,12 +557,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_3</h2>
+                                        <h2 className="name-product">White Leather Backpack</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$89.99</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -591,12 +591,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_3</h2>
+                                        <h2 className="name-product">White Leather Backpack</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$89.99</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -625,12 +625,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_3</h2>
+                                        <h2 className="name-product">White Leather Backpack</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$89.99</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
@@ -659,12 +659,12 @@ export default function Home(){
 
                                             <a href="#"><i className="fas fa-search" /></a>
                                         </div>
-                                        <h2 className="name-product">#Product_3</h2>
+                                        <h2 className="name-product">White Leather Backpack</h2>
                                         <div className="star-rate">
                                             <div className="star-rate-off" />
                                             <div className="star-rate-on" style={{width: '90%'}} />
                                         </div>
-                                        <p className="cost-product">$67.24</p>
+                                        <p className="cost-product">$89.99</p>
                                         <Link to="/Shopping-cart"><a className="add-to-cart-button">+ Add to cart</a></Link>
                                         <div className="choose-color-product">
                                             <label>Choose Color</label><br />
