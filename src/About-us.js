@@ -46,7 +46,7 @@ export default function About_us(){
             <div className="part2">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 content-part2-box">
                             <div className="part2-left">
                                 <i id="color-p2" className="fas fa-quote-right" />
                                 <p><i>" Our greatest happiness is to bring the best products to consumers. The current fashion trend of the world is eco-friendly products. Understanding that we have created differentiated and quality products.  "</i></p>
@@ -59,7 +59,7 @@ export default function About_us(){
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 content-part2-box">
                             <div className="part2-right">
                             </div>
                         </div>

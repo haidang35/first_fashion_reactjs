@@ -3,13 +3,25 @@ import './CSS/Header.css';
 import {Link} from "react-router-dom";
 
 export  default function Header(){
+    function Close_search_box(){
+        document.getElementById("search-box").style.display='none';
+    }
+    function Open_search_box(){
+        document.getElementById("search-box").style.display='block';
+    }
     return  (
+
         <header className="header-box">
+            <div className="search-box" id="search-box">
+                <i onClick={Close_search_box} className="fas fa-times" />
+                <input type="text" placeholder="Search here ..." className="form-control" />
+                <i className="fas fa-search"/>
+            </div>
             <div className="top-header-bar">
                 <div className="container">
                     <span className="ship-describe">Free shipping, 30-day return or refund guarantee.</span>
                     <div className="sign-in-box">
-                        <span>Sign in</span>
+                        <Link to="/Login" style={{textDecoration:'none'}}> <span>Sign in</span></Link>
                         <span>Faqs</span>
                         <span>Usd </span>
                         <i className="fas fa-chevron-down"/>
@@ -43,7 +55,7 @@ export  default function Header(){
                         </ul>
                     </nav>
                     <div className="icon-option">
-                        <Link to="/"> <a><i className="fas fa-search"/></a></Link>
+                        <a onClick={Open_search_box}><i className="fas fa-search"/></a>
                         <a href="#"><i className="far fa-heart"/></a>
                         <Link to="/Shopping-cart"><i className="fas fa-cart-plus" style={{marginRight: 5}}/></Link>
                         <Link to="/Check-out"><a> <span>$0.00</span></a></Link>

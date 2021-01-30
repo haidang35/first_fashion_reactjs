@@ -188,3 +188,6 @@ section{
 .list-page:hover .sub-menu-page{
     display: block;
 }
+.icon-option .fa-search{
+    cursor: pointer;
+}

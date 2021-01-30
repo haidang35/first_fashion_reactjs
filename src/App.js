@@ -14,16 +14,23 @@ import Contact from "./Contact";
 import Compare_product from "./Compare-product";
 import ScrollToTop from "./Scroll-to-top";
 import Chat_box from "./chat-box";
-import Search_box from "./search-box";
+import './CSS/search-box.css'
+import Login from "./login-page";
 
 function App() {
   return (
         <BrowserRouter>
+
             <div className="App">
+
                 <Header/>
+                <Route exact path="/Login">
+                    <Login/>
+                </Route>
                 <Chat_box/>
                 <ScrollToTop>
                     <Switch>
+
                         <Route exact path="/">
                             <Home/>
                         </Route>
