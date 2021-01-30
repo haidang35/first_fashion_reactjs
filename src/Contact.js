@@ -12,7 +12,6 @@ export default function Contact(){
         <section className="section-main">
             <div>
                 <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.879997675493!2d105.78599587923259!3d21.051884000717607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab2c375e9b8d%3A0xbd8b092f435d8cec!2zQ-G7lSBOaHXhur8gMSwgQ-G7lSBOaHXhur8sIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1611817884079!5m2!1svi!2s" width={600} height={450} frameBorder={0} style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} />
-
             </div>
             <div className="container">
                 <div className="information-page">
