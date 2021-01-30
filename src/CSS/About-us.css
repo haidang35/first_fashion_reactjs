@@ -70,8 +70,9 @@
     color: #e53637;
 }
 .content-part2-box{
-    padding: 0;
+    padding:0;
 }
+
 .part2-left{
     text-align: center;
     font-size: 21px;
@@ -89,8 +90,8 @@
     width: 100%;
     height: 600px;
     background-image: url("../Image/About/background.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .going{
     display: inline-block;
