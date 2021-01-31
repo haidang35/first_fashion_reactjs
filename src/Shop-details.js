@@ -153,26 +153,15 @@ import {Link} from "react-router-dom";
                      <div className="title-des-prod">
                          <span onClick={open_tab_prod_des} id="prod-des-title" style={{color: '#f53403'}}>Product Description</span>
                          <span onClick={open_tab_customer_reviewer} id="customer-reviewer-title">Customer Review(5)</span>
-                         <span><a className="Download-details-prod" target="_blank" href="https://bom.to/1PKzD6Dr">Download Information Details</a></span>
+                         <span><a className="Download-details-prod" target="_blank" href="https://bom.to/xuJB1aVxw">Download Information Details</a></span>
                      </div>
                      <div className="product-des" id="product-des">
                          <p style={{fontWeight: 500}}>
-                             Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis.
-                             Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an
-                             sullamcorper mattis drostique des commodo pharetras loremos.
+                             Thin sweaters may be worn tucked into the waistband of trousers; but otherwise, men's sweaters are worn untucked. Nonetheless, some individuals, including some television and film actors, have been known for wearing tucked-in sweaters.
                          </p>
                          <h3>Products Infomation</h3>
                          <p>
-                             A Pocket PC is a handheld computer, which features many of the same capabilities as a
-                             modern PC. These handy little devices allow individuals to retrieve and store e-mail
-                             messages, create a contact file, coordinate appointments, surf the internet, exchange text
-                             messages and more. Every product that is labeled as a Pocket PC must be accompanied with
-                             specific software to operate the unit and must feature a touchscreen and touchpad.
-                             As is the case with any new technology product, the cost of a Pocket PC was substantial
-                             during it’s early release. For approximately $700.00, consumers could purchase one of
-                             top-of-the-line Pocket PCs in 2003. These days, customers are finding that prices have
-                             become much more reasonable now that the newness is wearing off. For approximately $350.00,
-                             a new Pocket PC can now be purchased.
+                             Sweaters are a versatile item of clothing and can be worn on top of almost any outfit. Sports sweaters are often worn on tops of sports kit while traveling to or from a sports ground. Sweaters can be worn with a dress shirt underneath (and optionally a tie), which has the advantage of allowing the wearer to have the option of removing the sweater when it is uncomfortably warm and still looking presentable in many situations. Layering and the ease with which it allows for temperature regulation is a major benefit of the sweater as an article of clothing. Various methods have evolved for conveniently carrying a sweater, once removed. The three most common approaches are: around the waist (either loin cloth or knotted in front style) and over the shoulder.
                          </p>
                          <h3>Material used</h3>
                          <p>
