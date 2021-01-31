@@ -27,18 +27,18 @@ export default function Compare_product(){
                         <tbody className="main-table">
                         <tr>
                             <td className="col-md-4">
-                                <span>Product</span>
+                                <span className="title-list-compare">Product</span>
                             </td>
                             <td className="col-md-4">
-                                <span>Bike Jacket #1</span>
+                                <span>Pique Biker Jacket</span>
                             </td>
                             <td className="col-md-4">
-                                <span>Bike Jacket #2</span>
+                                <span>Floral Motif Black T-shirt</span>
                             </td>
                         </tr>
                         <tr>
                             <td className="col-md-4">
-                                <span>Image</span>
+                                <span className="title-list-compare">Image</span>
                             </td>
                             <td className="col-md-4">
                                 <img className="img-compare" src="Image/Shop/product-1.jpg" />
@@ -49,7 +49,7 @@ export default function Compare_product(){
                         </tr>
                         <tr>
                             <td className="col-md-4">
-                                <span>Star Rate</span>
+                                <span className="title-list-compare">Star Rate</span>
                             </td>
                             <td className="col-md-4">
                                 <div className="star-rate-compare">
@@ -66,7 +66,7 @@ export default function Compare_product(){
                         </tr>
                         <tr>
                             <td className="col-md-4">
-                                <span>Price</span>
+                                <span className="title-list-compare">Price</span>
                             </td>
                             <td className="col-md-4">
                                 <span className="price-product">$ 98.49</span>
@@ -77,7 +77,7 @@ export default function Compare_product(){
                         </tr>
                         <tr>
                             <td className="col-md-4">
-                                <span>Color</span>
+                                <span className="title-list-compare">Color</span>
                             </td>
                             <td className="col-md-4">
                                 <span>Brown Yellow</span>
@@ -88,7 +88,7 @@ export default function Compare_product(){
                         </tr>
                         <tr>
                             <td className="col-md-4">
-                                <span>Brand</span>
+                                <span className="title-list-compare">Brand</span>
                             </td>
                             <td className="col-md-4">
                                 <span>Louis Vuitton</span>
@@ -99,7 +99,7 @@ export default function Compare_product(){
                         </tr>
                         <tr>
                             <td className="col-md-4">
-                                <span>Availability</span>
+                                <span className="title-list-compare">Availability</span>
                             </td>
                             <td className="col-md-4">
                                 <span>In Stock</span>
@@ -110,7 +110,7 @@ export default function Compare_product(){
                         </tr>
                         <tr>
                             <td className="col-md-4">
-                                <span>Size</span>
+                                <span className="title-list-compare">Size</span>
                             </td>
                             <td className="col-md-4">
                                 <span>M, L, XL, 2Xl, 3XL</span>

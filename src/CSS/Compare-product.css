@@ -52,7 +52,13 @@ div.title-table{
     text-decoration: none;
     color: white;
 }
-
+.main-table span{
+    color: #3c3c3a;
+}
+.title-list-compare{
+    font-weight: 500;
+    font-size: 20px;
+}
 .price-product{
     color: #0f0f0f;
     font-weight: 500;
