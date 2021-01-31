@@ -729,7 +729,7 @@ export default function Home(){
                                     <div className="title-blog">
                                         <i className="far fa-calendar-alt"/>
                                         <span>16 February 2020</span>
-                                        <h3>What Curling Irons Are The Best Ones</h3>
+                                        <h3>World famous fashion<br/> brands</h3>
                                         <Link target="_blank" to="/Blog-detail">
                                             <a>Read more
                                                 <div className="readmore-button-border"/>
@@ -745,7 +745,7 @@ export default function Home(){
                                     <div className="title-blog">
                                         <i className="far fa-calendar-alt"/>
                                         <span>21 February 2020</span>
-                                        <h3>Eternity Bands Do Last Forever</h3>
+                                        <h3>Summer 2020 collections with new trends</h3>
                                         <Link target="_blank" to="/Blog-detail">
                                             <a>Read more
                                                 <div className="readmore-button-border"/>
@@ -761,7 +761,7 @@ export default function Home(){
                                     <div className="title-blog">
                                         <i className="far fa-calendar-alt"/>
                                         <span>28 February 2020</span>
-                                        <h3>The Health Benefits Of Sunglasses</h3>
+                                        <h3>Sustainability, comfort key for fashion brands</h3>
                                         <Link target="_blank" to="/Blog-detail">
                                             <a>Read more
                                                 <div className="readmore-button-border"/>

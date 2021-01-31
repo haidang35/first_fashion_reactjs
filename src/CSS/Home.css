@@ -97,6 +97,12 @@
     background-repeat: no-repeat;
     z-index: 2;
 }
+.change-content-box a{
+    color: #0f0f0f;
+}
+.change-content-box-1 a{
+    color: #0f0f0f;
+}
 .change-collection-box{
     position: absolute;
     width: auto;
@@ -482,8 +488,6 @@ div.container{
     margin-right: 200px;
 
 }
-
-
 .sale-off-logo{
     position: absolute;
     background-color: #0f0f0f;
@@ -567,13 +571,15 @@ div.container{
     height: 178px;
     padding: 28px;
 }
+.title-blog h3{
+    font-size: 20px;
+}
 .title-blog span{
     padding-left: 10px;
     color: #0f0f0f;
     font-size: 14px;
-    letter-spacing: 1px;
 }
-.title-blog a{
+.news-box .title-blog a{
     text-decoration: none;
     color: #3c3c3c;
     font-size: 18px;

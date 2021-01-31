@@ -39,7 +39,7 @@ export default function Check_out(){
                                         <input type="text" className="form-control" />
                                     </div>
                                     <div className="address-box">
-                                        <label>Address<span style={{color: 'red'}}>*</span></label><br />
+                                        <label>Shipping Address<span style={{color: 'red'}}>*</span></label><br />
                                         <input type="text" className="form-control" />
                                     </div>
                                     <div className="town-box">
