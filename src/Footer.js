@@ -41,7 +41,7 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className="footer-box-under">
-                    <span>Copyright © 2021-2020 All rights reserved | This template is made with <i className="fas fa-heart" style={{color: 'red'}} /> by <span style={{color: 'red'}}>Dang Jinner</span> | FPT Aptech</span>
+                    <span>Copyright © 2021-2020 All rights reserved | This template is made with <i className="fas fa-heart" style={{color: 'red'}} /> by <span style={{color: 'red'}}>Yoda Team</span> | FPT Aptech</span>
                 </div>
             </div>
         </footer>
