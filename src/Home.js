@@ -712,8 +712,7 @@ export default function Home(){
                     </div>
                     <div className="describe-insta">
                         <h1>Instagram</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
+                        <p>Some pictures of famous fashion on our instagram. These are elegant fashion styles combined with existing tones to create eye-catching and attractive fashion designs. </p>
                         <h2>#Male_Fashion</h2>
                     </div>
                 </div>

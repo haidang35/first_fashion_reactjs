@@ -87,6 +87,8 @@
 }
 .input-chat-box .start-chat{
     cursor: pointer;
+    width: 276px;
+    height: 58px;
     text-decoration: none;
     display: block;
     margin: 0 auto;

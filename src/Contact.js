@@ -1,13 +1,6 @@
 import React from 'react';
 import  './CSS/Contact.css';
 export default function Contact(){
-    function Alert_empty_input(){
-        var name_input=document.getElementById("name").value.length;
-       if( name_input === 0 || document.getElementById("email").value.length === 0 || document.getElementById("message").value.length===0){
-           alert("Empty text");
-           return false;
-       }
-    }
     return(
         <section className="section-main">
             <div>
@@ -37,20 +30,22 @@ export default function Contact(){
                         <div className="col-md-6">
                             <div className="form" >
                                 <div className="row">
-                                    <form name="form">
-                                        <div className="input-name-email">
+                                    <form action="">
                                             <div className="col-md-6">
-                                                <input className="input-information form-control" type="text" name="name" placeholder="Name" id="name"/>
+                                                <input className="input-information form-control" type="text" name="name" placeholder="Name" id="name" required title="Please enter your name here"/>
                                             </div>
-                                            <div className="col-md-6">
-                                                <input className="input-information form-control" type="text" name="email" placeholder="Email" id="email"/>
-                                            </div>
+                                            <div className="col-md-6 ">
+                                                <input className="input-information form-control" type="email" name="email" placeholder="Email" id="email" required/>
+                                        </div>
+                                        <div className="input-bar">
+                                            <textarea className="form-control box-message " placeholder="Message" defaultValue={""} required/>
+                                            <input type="submit" className="button-send" value="Send Message"/>
                                         </div>
                                     </form>
 
+
                                 </div>
-                                <textarea className="form-control box-message" placeholder="Message" defaultValue={""} id="message"/>
-                                <a onClick={Alert_empty_input} className="button-send">Send Message</a>
+
                             </div>
                         </div>
                     </div>

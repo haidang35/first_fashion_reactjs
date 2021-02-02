@@ -27,6 +27,10 @@
 .information-page h3 {
     color: #111111;
 }
+.form .input-bar{
+    padding-top: 45px;
+  padding-left: 15px;
+}
 .input-information{
     padding: 3% ;
     width: 100%;
@@ -46,18 +50,15 @@
 .box-message{
     margin-top: 4%;
     height: 150px;
-    padding-left: 15px;
+    margin-right: 0;
     min-width:555px ;
     min-height: 150px;
     max-width: 555px;
     max-height: 300px;
 }
-.form a{
-    text-decoration: none;
-    color: #fbf7f3;
-}
 .button-send{
     display: block;
+    color: white;
     background-color: #111111;
     margin-top: 25px;
     text-align: center;

@@ -23,51 +23,52 @@ export default function Check_out(){
                                 <i className="fas fa-tag" />
                                 <a href="#">Have a coupon?  Click here to enter your code</a>
                             </div>
-                            <div className="billing-details">
+                            <form action="#" className="billing-details">
                                 <h3>Billing Details</h3>
                                 <div className="input-billing-box">
                                     <div className="first-name-box">
                                         <label>First Name<span style={{color: 'red'}}>*</span></label><br />
-                                        <input type="text" className="form-control" />
+                                        <input type="text" className="form-control" name="firstname" id="first-name" required/>
                                     </div>
                                     <div className="last-name-box">
                                         <label>Last Name<span style={{color: 'red'}}>*</span></label><br />
-                                        <input type="text" className="form-control" />
+                                        <input type="text" className="form-control" name="lastname" id="last-name"required/>
                                     </div>
                                     <div className="country-box">
                                         <label>Country<span style={{color: 'red'}}>*</span></label><br />
-                                        <input type="text" className="form-control" />
+                                        <input type="text" className="form-control" id="country" required/>
                                     </div>
                                     <div className="address-box">
                                         <label>Shipping Address<span style={{color: 'red'}}>*</span></label><br />
-                                        <input type="text" className="form-control" />
+                                        <input type="text" className="form-control" id="address" required/>
                                     </div>
                                     <div className="town-box">
                                         <label>Town/City<span style={{color: 'red'}}>*</span></label><br />
-                                        <input type="text" className="form-control" />
+                                        <input type="text" className="form-control" id="town" required/>
                                     </div>
                                     <div className="State-box">
                                         <label>State<span style={{color: 'red'}}>*</span></label><br />
-                                        <input type="text" className="form-control" />
+                                        <input type="text" className="form-control" required/>
                                     </div>
                                     <div className="postcode-box">
                                         <label>Postcode/ZIP<span style={{color: 'red'}}>*</span></label><br />
-                                        <input type="text" className="form-control" />
+                                        <input type="text" className="form-control" required/>
                                     </div>
                                     <div className="Phone-box">
                                         <label>Phone<span style={{color: 'red'}}>*</span></label><br />
-                                        <input type="tel" className="form-control" />
+                                        <input type="tel" className="form-control" required/>
                                     </div>
                                     <div className="email-box">
                                         <label>Email<span style={{color: 'red'}}>*</span></label><br />
-                                        <input type="email" className="form-control" />
+                                        <input type="email" className="form-control" required/>
                                     </div>
                                     <div className="order-note-box">
-                                        <label>Order Note<span style={{color: 'red'}}>*</span></label><br />
+                                        <label>Order Note</label><br />
                                         <textarea name="note" className="form-control" defaultValue={""} />
                                     </div>
                                 </div>
-                            </div>
+                                <input className="place-order-button" list="hey" type="submit" value="Place Order"/>
+                            </form>
                         </div>
                         <div className="col-md-4">
                             <div className="your-order-box">
@@ -109,14 +110,14 @@ export default function Check_out(){
                                         <input type="checkbox" />
                                         <span>Create an account?</span>
                                         <p>Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <input type="checkbox" />
+                                        <input type="checkbox" required/>
                                         <span>Check Payment</span><br />
-                                        <input type="checkbox" />
+                                        <input type="checkbox" required/>
                                         <span>Paypal</span>
                                     </div>
-                                    <div className="place-order">
-                                        <a href="#">Place Order</a>
-                                    </div>
+                                     <div className="place-order">
+
+                                     </div>
                                     <div className="payment-checkout">
                                         <img src="Image/Payment.png" />
                                     </div>

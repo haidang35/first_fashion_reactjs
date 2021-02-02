@@ -22,7 +22,6 @@ export  default function Header(){
                     <span className="ship-describe">Free shipping, 30-day return or refund guarantee.</span>
                     <div className="sign-in-box">
                         <Link to="/Login" style={{textDecoration:'none'}}> <span>Sign in</span></Link>
-                        <span>Faqs</span>
                         <span>Usd </span>
                         <i className="fas fa-chevron-down"/>
                     </div>

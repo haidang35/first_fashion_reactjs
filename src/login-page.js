@@ -9,14 +9,14 @@ export default function Login(){
                     <input id="tab-1" type="radio" name="tab" className="sign-in" defaultChecked /><label htmlFor="tab-1" className="tab">Sign In</label>
                     <input id="tab-2" type="radio" name="tab" className="sign-up" /><label htmlFor="tab-2" className="tab">Sign Up</label>
                     <div className="login-form">
-                        <div className="sign-in-htm">
+                        <form className="sign-in-htm">
                             <div className="group">
                                 <label htmlFor="user" className="label">Username</label>
-                                <input type="text" className="input" />
+                                <input type="text" className="input" required/>
                             </div>
                             <div className="group">
                                 <label htmlFor="pass" className="label">Password</label>
-                                <input id="pass" type="password" className="input" data-type="password" />
+                                <input id="pass" type="password" className="input" data-type="password" required/>
                             </div>
                             <div className="group">
                                 <input id="check" type="checkbox" className="check" defaultChecked />
@@ -29,23 +29,23 @@ export default function Login(){
                             <div className="foot-lnk">
                                 <a>Forgot Password?</a>
                             </div>
-                        </div>
-                        <div className="sign-up-htm">
+                        </form>
+                        <form className="sign-up-htm">
                             <div className="group">
                                 <label htmlFor="user" className="label">Username</label>
-                                <input id="user" type="text" className="input" />
+                                <input id="user" type="text" className="input" required/>
                             </div>
                             <div className="group">
                                 <label htmlFor="pass" className="label">Password</label>
-                                <input type="password" className="input" data-type="password" />
+                                <input type="password" className="input" data-type="password" required/>
                             </div>
                             <div className="group">
                                 <label htmlFor="pass" className="label">Repeat Password</label>
-                                <input type="password" className="input" data-type="password" />
+                                <input type="password" className="input" data-type="password" required/>
                             </div>
                             <div className="group">
                                 <label htmlFor="pass" className="label">Email Address</label>
-                                <input type="text" className="input" />
+                                <input type="text" className="input" required/>
                             </div>
                             <div className="group">
                                 <input type="submit" className="button" defaultValue="Sign Up" />
@@ -54,7 +54,7 @@ export default function Login(){
                             <div className="foot-lnk">
                                 <label htmlFor="tab-1">Already Member?</label>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
