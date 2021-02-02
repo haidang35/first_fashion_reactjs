@@ -173,8 +173,8 @@ export default function Shopping_cart(){
                             <div className="cart-total">
                                 <h3>Cart Total</h3>
                                 <ul>
-                                    <li>Subtotal <span>$ 327.97</span></li>
-                                    <li>Total <span>$ 327.97</span></li>
+                                    <li>Subtotal <span>$ 750.99</span></li>
+                                    <li>Total <span>$ 750.99</span></li>
                                 </ul>
                                 <Link to="/Check-out"><a className="proceed-checkout-button">Proceed to checkout</a></Link>
                             </div>
